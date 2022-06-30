@@ -1,0 +1,81 @@
+{
+    "type": "module",
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+            "correct_answer": "Apple",
+            "incorrect_answers": ["Microsoft", "Atari", "Commodore"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When Gmail first launched, how much storage did it provide for your email?",
+            "correct_answer": "1GB",
+            "incorrect_answers": ["512MB", "5GB", "Unlimited"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "HTML is what type of language?",
+            "correct_answer": "Markup Language",
+            "incorrect_answers": ["Macro Language", "Programming Language", "Scripting Language"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the Prt Sc button do?",
+            "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+            "incorrect_answers": ["Nothing", "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos", "Closes all windows"]
+        },
+        { "category": "Science: Computers", "type": "boolean", "difficulty": "easy", "question": "RAM stands for Random Access Memory.", "correct_answer": "True", "incorrect_answers": ["False"] },
+        { "category": "Science: Computers", "type": "multiple", "difficulty": "easy", "question": "On Twitter, what was the original character limit for a Tweet?", "correct_answer": "140", "incorrect_answers": ["120", "160", "100"] },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+            "correct_answer": "Green",
+            "incorrect_answers": ["Red", "Blue", "Yellow"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does LTS stand for in the software market?",
+            "correct_answer": "Long Term Support",
+            "incorrect_answers": ["Long Taco Service", "Ludicrous Transfer Speed", "Ludicrous Turbo Speed"]
+        },
+        { "category": "Science: Computers", "type": "boolean", "difficulty": "easy", "question": "The Windows 7 operating system has six main editions.", "correct_answer": "True", "incorrect_answers": ["False"] },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which programming language shares its name with an island in Indonesia?",
+            "correct_answer": "Java",
+            "incorrect_answers": ["Python", "C", "Jakarta"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In computing, what does MIDI stand for?",
+            "correct_answer": "Musical Instrument Digital Interface",
+            "incorrect_answers": ["Musical Interface of Digital Instruments", "Modular Interface of Digital Instruments", "Musical Instrument Data Interface"]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "The Python programming language gets its name from the British comedy group &quot;Monty Python.&quot;",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"]
+        }
+    ]
+}
