@@ -62,7 +62,6 @@ function renderQuestions() {
             containers[index].setAttribute(k, v);
         });
 
-        console.log(`the question is ${quiz.results[index].question}`); // debug
 
         question_Els[index] = document.createElement('p');
         Object.entries({
@@ -76,7 +75,6 @@ function renderQuestions() {
         choices_Els[index] = []; // declare that each choices have an inner array
         // loop over the 3 wrong choices and insert it into choices_Els[index][]
         for(let choices_index = 0; choices_index < 3; choices_index++) {
-            console.log(`wrong choices are ${quiz.results[index].incorrect_answers[choices_index]}`); // debug
 
             choices_Els[index][choices_index] = document.createElement('button');
             Object.entries({
@@ -87,7 +85,6 @@ function renderQuestions() {
                 choices_Els[index][choices_index].innerHTML = quiz.results[index].incorrect_answers[choices_index];
             });
 
-            console.log("they are "+choices_Els[index][choices_index]); // debug
         }
 
         // creates a correct button
@@ -101,25 +98,8 @@ function renderQuestions() {
         });
 
 
-
-        console.log(`rand correct right choice is at ${rand_correct_ans_Positions[index]}`);  // debug
-        for(let j = 0; j < choices_Els[index].length; j++) {  // debug
-            console.log(`j = ${j}, ${choices_Els[index][j]}`); // debug
-        } // debug
-
         // insert correct button into 
         choices_Els[index].splice(rand_correct_ans_Positions[index], 0, correct_Btn);
-
-
-        // console.log(`i = ${choices_index}, ${choices_Els[index][choices_index]}`); //debug
-    
-        // console.log(`the ${choices_Els[index].length} choices are: ${choices_Els[index]}`); // debug
-        for(let i = 0; i < choices_Els[index].length; i++) {  // debug
-            console.log(`i = ${i}, ${choices_Els[index][i]}, ${choices_Els[index][i]}`); // debug
-        } // debug
-        console.log(`=================BIG+DIVIDER=================`); // degub
-
-
 
         let container_div = document.createElement('div');
         
@@ -165,7 +145,6 @@ function hideCurrSlide() {
 
 function goodNext() {
     good_Counter++;
-    console.log(`correct count: ${good_Counter}`); // debug
     hideCurrSlide()
     curr_quiz_Index++;
     if(curr_quiz_Index === num_Quizes) {
@@ -177,7 +156,6 @@ function goodNext() {
 
 function badNext() {
     bad_Counter++;
-    console.log(`incorrect count: ${bad_Counter}`); // debug
     hideCurrSlide();
     curr_quiz_Index++;
     dur = moment.duration(dur - wrong_Penalty, 'milliseconds');
