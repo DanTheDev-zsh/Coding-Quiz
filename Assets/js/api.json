@@ -31,10 +31,9 @@
             "type": "multiple",
             "difficulty": "easy",
             "question": "What does the Prt Sc button do?",
-            "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+            "correct_answer": "Captures what is on the screen and copies it to your clipboard",
             "incorrect_answers": ["Nothing", "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos", "Closes all windows"]
         },
-        { "category": "Science: Computers", "type": "boolean", "difficulty": "easy", "question": "RAM stands for Random Access Memory.", "correct_answer": "True", "incorrect_answers": ["False"] },
         { "category": "Science: Computers", "type": "multiple", "difficulty": "easy", "question": "On Twitter, what was the original character limit for a Tweet?", "correct_answer": "140", "incorrect_answers": ["120", "160", "100"] },
         {
             "category": "Science: Computers",
@@ -52,7 +51,7 @@
             "correct_answer": "Long Term Support",
             "incorrect_answers": ["Long Taco Service", "Ludicrous Transfer Speed", "Ludicrous Turbo Speed"]
         },
-        { "category": "Science: Computers", "type": "boolean", "difficulty": "easy", "question": "The Windows 7 operating system has six main editions.", "correct_answer": "True", "incorrect_answers": ["False"] },
+        { "category": "Science: Computers", "type": "multiple", "difficulty": "easy", "question": "The Windows 7 operating system has six main editions.", "correct_answer": "True", "incorrect_answers": ["False", "IDK", "maybe, depends on the day"] },
         {
             "category": "Science: Computers",
             "type": "multiple",
@@ -68,14 +67,6 @@
             "question": "In computing, what does MIDI stand for?",
             "correct_answer": "Musical Instrument Digital Interface",
             "incorrect_answers": ["Musical Interface of Digital Instruments", "Modular Interface of Digital Instruments", "Musical Instrument Data Interface"]
-        },
-        {
-            "category": "Science: Computers",
-            "type": "boolean",
-            "difficulty": "easy",
-            "question": "The Python programming language gets its name from the British comedy group &quot;Monty Python.&quot;",
-            "correct_answer": "True",
-            "incorrect_answers": ["False"]
         }
     ]
 }

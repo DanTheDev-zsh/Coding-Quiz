@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    hello world
-    <p id="tobechanged">ready to start?</p>
-    <button id="start-button" type="submit">Start quiz</button>
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+</head>
+
+<body>
+
+    <p id="prompt">
+        This is a coding quiz game.<br>
+        You have 60 seconds to solve 10 problems, multiple choice<br>
+        For every wrong question you answer, you lose 5 seconds off the total time.</p>
+    <button id="start-button" type="submit">Start quiz</button>
+    
+    
+    <input type="text" id="initial-Field"  value="" placeholder="Please enter your initial" />
+    <button type="button" id="submitBtn">Submit Response</button>
     <!-- scripts -->
     <script type="module" src="./Assets/js/script.js"></script>
-    <!-- <script type="module" src="./Assets/js/api.json"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
 </body>
+
 </html>
